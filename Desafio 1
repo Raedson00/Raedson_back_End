@@ -10,3 +10,29 @@ console.log(idade);
 console.log(altura);
 
 Questão 3:
+let preco = 50;
+let desconto = 0.2;
+let desconto_eqv = (preco * desconto);
+let precoFinal = (preco - desconto_eqv);
+
+console.log ('Preço = ' +preco);
+console.log('Desconto = '+ desconto +' e Equivalente = '+ desconto_eqv);
+console.log('Preço final com desconto = '+ precoFinal);
+
+Questão 4:
+let temperatura = 30;
+
+if(temperatura > 25) {
+    console.log('Está calor!')
+} else {
+    console.log('Está fresco!')
+}
+
+Questão 5:
+let idade = 18;
+
+if(idade >= 18) {
+    console.log('Você é maior de idade!');
+} else {
+    console.log('Você é menor de idade!');
+}
