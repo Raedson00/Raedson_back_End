@@ -71,4 +71,88 @@ let idade = 21;
 console.log('Olá, meu nome é '+nome+' e eu tenho '+idade+' anos!');
 console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos!`);
 
-Questão 8:
+Questão 9:
+let interacao = 0;
+while(interacao < 10) {
+    interacao++;
+    console.log(interacao);
+}
+
+Questão 10:
+let numero = 0;
+
+while(1) {
+    if(numero == 5) {
+        break
+    }
+    console.log(numero);
+    numero = prompt(" informe o valor 5 para que o loop termine!")
+}
+
+Questão 11:
+let resultado = 0;
+let numero = 7;
+let interacao = 1;
+while(interacao <= 10) {
+    resultado = numero + interacao;
+    console.log('Soma: '+numero+' + '+interacao+' = '+resultado);
+    interacao++;
+}
+console.log(' ');
+
+interacao = 1;
+
+while(interacao <= 10) {
+    resultado = numero - interacao;
+    console.log('Subtração: '+numero+' - '+interacao+' = '+resultado);
+    interacao++;
+}
+console.log(' ');
+
+interacao = 1;
+
+while(interacao <= 10) {
+    resultado = numero * interacao;
+    console.log('Multiplicação: '+numero+' * '+interacao+' = '+resultado);
+    interacao++;
+}
+
+console.log(' ');
+interacao = 0;
+
+while(interacao <= 10) {
+    resultado = numero / interacao;
+    console.log('Divisão: '+numero+' / '+interacao+' = '+resultado);
+    interacao++;
+}
+
+Questão 12:
+let resultado = 0;
+let numero = 2;
+let interacao = 0; 
+
+while(interacao <= 20) {
+    resultado = interacao % numero;
+    if(resultado == 0) {
+        console.log(interacao);
+    }
+    interacao++;
+}
+
+questão 13:
+let Area = 0;
+let raio = 2;
+
+Area = (raio*raio) * Math.PI;
+console.log('Valor da area = '+Area);
+
+Questão 14:
+let numero1 = 7; // Definição da variável que recebe o valor do número.
+let numero2 = 2; // Definição da variável que recebe o valor do número.
+let resultado = 0; // Definição da variável que recebe o valor da soma.
+
+resultado = numero1 + numero2; // soma dos dois números
+console.log('valor da soma = '+resultado); // imprime o resulatdo concatenando com a string
+
+Questão 15
+
