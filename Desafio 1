@@ -1,0 +1,12 @@
+Desafio 1
+Questão 1:
+let nome = 'Raedson';
+console.log(nome);
+
+Questão 2:
+let idade = 25;
+let altura = 1.75;
+console.log(idade);
+console.log(altura);
+
+Questão 3:
