@@ -155,4 +155,11 @@ resultado = numero1 + numero2; // soma dos dois números
 console.log('valor da soma = '+resultado); // imprime o resulatdo concatenando com a string
 
 Questão 15
+let x = 10;
+let y = 20;
+let z = 0;
+
+z = x+y;
+
+console.log('valor de z = '+z)
 
