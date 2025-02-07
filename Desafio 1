@@ -36,3 +36,39 @@ if(idade >= 18) {
 } else {
     console.log('Você é menor de idade!');
 }
+
+Questão 6:
+let nota = 10;
+
+if(nota >= 7 && nota <= 10) {
+    console.log('Aprovado!');
+}else{
+    if(nota >= 5 && nota <= 6 ) {
+        console.log('Recuperação!');
+    } if(nota >= 0 && nota < 5 ){
+        console.log('Reprovado!');
+    }
+    else{
+        console.log('valor invalido!');
+    }
+}
+
+Questão 7:
+let numero1 = 10;
+let numero2 = 11;
+
+
+if(numero1 == numero2) {
+    console.log('São iguais!');
+}else{
+    console.log('São diferente!');
+}
+
+Questão 8:
+let nome = 'Raedson';
+let idade = 21; 
+
+console.log('Olá, meu nome é '+nome+' e eu tenho '+idade+' anos!');
+console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos!`);
+
+Questão 8:
